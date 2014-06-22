@@ -81,6 +81,8 @@ bool Callback::IsExecutable() {
 					return (socket->sendqueueEmptyCallback != NULL);
 				case CallbackEvent_Error:
 					return (socket->errorCallback != NULL);
+				default:
+					return false;
 			}
 			break;
 		}
@@ -100,6 +102,8 @@ bool Callback::IsExecutable() {
 					return (socket->sendqueueEmptyCallback != NULL);
 				case CallbackEvent_Error:
 					return (socket->errorCallback != NULL);
+				default:
+					return false;
 			}
 			break;
 		}
