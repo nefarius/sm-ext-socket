@@ -1,0 +1,14 @@
+*.kdevses
+*.kdevelop.pcs
+*.tag
+Doxyfile
+a.out
+*.o
+*.oc
+*.ox
+*.a
+*.so
+*~
+Release/
+Debug/
+

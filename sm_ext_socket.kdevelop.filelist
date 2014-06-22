@@ -1,0 +1,24 @@
+# KDevelop Custom Project File List
+Callback.cpp
+Callback.h
+CallbackHandler.cpp
+CallbackHandler.h
+Define.h
+Extension.cpp
+Extension.h
+Makefile
+Socket.cpp
+Socket.h
+SocketHandler.cpp
+SocketHandler.h
+examples
+examples/example.sp
+examples/listenexample.sp
+examples/selftest.sp
+examples/sendto_test.sp
+examples/sockettest.sp
+sdk
+sdk/smsdk_config.h
+sdk/smsdk_ext.cpp
+sdk/smsdk_ext.h
+socket.inc
