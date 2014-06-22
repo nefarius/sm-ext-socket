@@ -16,9 +16,11 @@ SocketWrapper::~SocketWrapper() {
 		case SM_SocketType_Udp:
 			delete (Socket<udp>*) socket;
 			break;
-		/*case SM_SocketType_Icmp:
+#if 0
+		case SM_SocketType_Icmp:
 			delete (Socket<icmp>*) socket;
-			break;*/
+			break;
+#endif
 	}
 
 	callbackHandler.RemoveCallbacks(this);

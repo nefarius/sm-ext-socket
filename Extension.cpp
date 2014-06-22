@@ -298,7 +298,7 @@ cell_t SocketSetOption(IPluginContext *pContext, const cell_t *params) {
 		return false;
 	}
 
-	/*
+#if 0
 	switch (params[2]) {
 		case ConcatenateCallbacks:
 			socket->setOption(ConcatenateCallbacks, value);
@@ -317,7 +317,8 @@ cell_t SocketSetOption(IPluginContext *pContext, const cell_t *params) {
 			sockets._debug = value != 0;
 			return 1;
 ...
-	}*/
+	}
+#endif
 }
 
 
