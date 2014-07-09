@@ -7,3 +7,10 @@ Dependencies for building
  * [SourceMod](https://github.com/alliedmodders/sourcemod)
  * [Boost](http://www.boost.org/)
  * [msinttypes](https://code.google.com/p/msinttypes/)
+
+Building on Windows
+-------------------
+Set the following environment variables on your system:
+ * `SOURCEMOD` - path to SourceMod (>= 1.5.x)
+ * `BOOST155` - path to boost libraries (>= 1.5.5)
+ * `MSINTTYPES` - path to latest version of msinttypes
